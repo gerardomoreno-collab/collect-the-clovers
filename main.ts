@@ -123,6 +123,9 @@ controller.left.onEvent(ControllerButtonEvent.Released, function () {
     false
     )
 })
+info.onScore(100, function () {
+	
+})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     hero,
